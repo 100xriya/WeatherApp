@@ -6,7 +6,6 @@ const temp = document.getElementById("temperature");
 const weatherDescription = document.getElementById("description");
 const errorMsg = document.getElementById("error-message");
 
-const API_KEY = "c91f2ad11c5e8931032611297adf796b"; //env 
 
 weatherBtn.addEventListener('click', async () => {
     const city = cityNameInput.value.trim();
@@ -43,7 +42,7 @@ function displayWeather(weatherData) {
     console.log(weatherData);
     const { name, main, weather } = weatherData;
     cityDisplay.textContent = name;
-    temp.textContent = `Temperature: ${main.temp}`;
+    temp.textContent = `Temperature: ${main.temp} }`;
     weatherDescription.textContent = `Weather: ${weather[0].description}`;
 
     weatherInfo.classList.remove("hidden");
