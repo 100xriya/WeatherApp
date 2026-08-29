@@ -42,7 +42,7 @@ function displayWeather(weatherData) {
     console.log(weatherData);
     const { name, main, weather } = weatherData;
     cityDisplay.textContent = name;
-    temp.textContent = `Temperature: ${main.temp} }`;
+    temp.textContent = `Temperature: ${main.temp}°C`;
     weatherDescription.textContent = `Weather: ${weather[0].description}`;
 
     weatherInfo.classList.remove("hidden");
