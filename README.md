@@ -4,12 +4,12 @@ A simple and responsive weather application built with HTML, Tailwind CSS, and v
 
 ## Features
 
-* 🌍 Search weather by city name
-* 🌡️ Display current temperature in Celsius
-* ☁️ Display current weather conditions
-* ⚠️ Handle invalid city names and API errors
-* 📱 Responsive user interface
-* 🔄 Fetch real-time weather data using an API
+* Search weather by city name
+* Display current temperature in Celsius
+* Display current weather conditions
+* Handle invalid city names and API errors
+* Responsive user interface
+* Fetch real-time weather data using an API
 
 ## Technologies Used
 
@@ -34,7 +34,9 @@ A simple and responsive weather application built with HTML, Tailwind CSS, and v
 
 ## Future Improvements
 
-* Add animated weather icons based on weather conditions
+* Add animated weather icons based on weather conditions 
+<!-- https://openweathermap.org/api/weather-conditions#Icon-list -->
+<!-- https://github.com/Makin-Things/weather-icons/tree/main -->
 * Different icons for day and night
 * Add location-based weather detection
 * Add a multi-day weather forecast
